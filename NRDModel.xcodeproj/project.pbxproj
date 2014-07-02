@@ -13,6 +13,8 @@
 		D371C5AF1964313F005EA9F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D371C5AD1964313F005EA9F4 /* Main.storyboard */; };
 		D371C5B11964313F005EA9F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D371C5B01964313F005EA9F4 /* Images.xcassets */; };
 		D371C5BD1964313F005EA9F4 /* NRDModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D371C5BC1964313F005EA9F4 /* NRDModelTests.m */; };
+		D3B73BF31964ADDF00737C2F /* WHPHeartAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B73BEE1964ADDF00737C2F /* WHPHeartAnimationView.m */; };
+		D3B73BF41964ADDF00737C2F /* WHPHeartAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B73BF01964ADDF00737C2F /* WHPHeartAnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,12 @@
 		D371C5B61964313F005EA9F4 /* NRDModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NRDModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D371C5BB1964313F005EA9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D371C5BC1964313F005EA9F4 /* NRDModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRDModelTests.m; sourceTree = "<group>"; };
+		D3B73BED1964ADDF00737C2F /* WHPHeartAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPHeartAnimationView.h; sourceTree = "<group>"; };
+		D3B73BEE1964ADDF00737C2F /* WHPHeartAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHPHeartAnimationView.m; sourceTree = "<group>"; };
+		D3B73BEF1964ADDF00737C2F /* WHPHeartAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPHeartAnimationViewController.h; sourceTree = "<group>"; };
+		D3B73BF01964ADDF00737C2F /* WHPHeartAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHPHeartAnimationViewController.m; sourceTree = "<group>"; };
+		D3B73BF11964ADDF00737C2F /* WHPHeartAnimationViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPHeartAnimationViewControllerDelegate.h; sourceTree = "<group>"; };
+		D3B73BF21964ADDF00737C2F /* WHPHeartAnimationViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPHeartAnimationViewDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,12 @@
 				D371C5AD1964313F005EA9F4 /* Main.storyboard */,
 				D371C5B01964313F005EA9F4 /* Images.xcassets */,
 				D371C5A31964313F005EA9F4 /* Supporting Files */,
+				D3B73BED1964ADDF00737C2F /* WHPHeartAnimationView.h */,
+				D3B73BEE1964ADDF00737C2F /* WHPHeartAnimationView.m */,
+				D3B73BEF1964ADDF00737C2F /* WHPHeartAnimationViewController.h */,
+				D3B73BF01964ADDF00737C2F /* WHPHeartAnimationViewController.m */,
+				D3B73BF11964ADDF00737C2F /* WHPHeartAnimationViewControllerDelegate.h */,
+				D3B73BF21964ADDF00737C2F /* WHPHeartAnimationViewDelegate.h */,
 			);
 			path = NRDModel;
 			sourceTree = "<group>";
@@ -215,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B73BF31964ADDF00737C2F /* WHPHeartAnimationView.m in Sources */,
 				D371C5AC1964313F005EA9F4 /* ViewController.m in Sources */,
 				D371C5A91964313F005EA9F4 /* AppDelegate.m in Sources */,
+				D3B73BF41964ADDF00737C2F /* WHPHeartAnimationViewController.m in Sources */,
 				D371C5A61964313F005EA9F4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +420,7 @@
 				D371C5C21964313F005EA9F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D371C5C31964313F005EA9F4 /* Build configuration list for PBXNativeTarget "NRDModelTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +429,7 @@
 				D371C5C51964313F005EA9F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
