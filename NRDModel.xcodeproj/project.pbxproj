@@ -12,7 +12,6 @@
 		D371C5AC1964313F005EA9F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D371C5AB1964313F005EA9F4 /* ViewController.m */; };
 		D371C5AF1964313F005EA9F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D371C5AD1964313F005EA9F4 /* Main.storyboard */; };
 		D371C5B11964313F005EA9F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D371C5B01964313F005EA9F4 /* Images.xcassets */; };
-		D371C5BD1964313F005EA9F4 /* NRDModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D371C5BC1964313F005EA9F4 /* NRDModelTests.m */; };
 		D3B73BF31964ADDF00737C2F /* WHPHeartAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B73BEE1964ADDF00737C2F /* WHPHeartAnimationView.m */; };
 		D3B73BF41964ADDF00737C2F /* WHPHeartAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B73BF01964ADDF00737C2F /* WHPHeartAnimationViewController.m */; };
 /* End PBXBuildFile section */
@@ -38,8 +37,6 @@
 		D371C5AE1964313F005EA9F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D371C5B01964313F005EA9F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D371C5B61964313F005EA9F4 /* NRDModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NRDModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D371C5BB1964313F005EA9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D371C5BC1964313F005EA9F4 /* NRDModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRDModelTests.m; sourceTree = "<group>"; };
 		D3B73BED1964ADDF00737C2F /* WHPHeartAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPHeartAnimationView.h; sourceTree = "<group>"; };
 		D3B73BEE1964ADDF00737C2F /* WHPHeartAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHPHeartAnimationView.m; sourceTree = "<group>"; };
 		D3B73BEF1964ADDF00737C2F /* WHPHeartAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPHeartAnimationViewController.h; sourceTree = "<group>"; };
@@ -70,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				D371C5A21964313F005EA9F4 /* NRDModel */,
-				D371C5B91964313F005EA9F4 /* NRDModelTests */,
 				D371C5A11964313F005EA9F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,23 +105,6 @@
 			children = (
 				D371C5A41964313F005EA9F4 /* Info.plist */,
 				D371C5A51964313F005EA9F4 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D371C5B91964313F005EA9F4 /* NRDModelTests */ = {
-			isa = PBXGroup;
-			children = (
-				D371C5BC1964313F005EA9F4 /* NRDModelTests.m */,
-				D371C5BA1964313F005EA9F4 /* Supporting Files */,
-			);
-			path = NRDModelTests;
-			sourceTree = "<group>";
-		};
-		D371C5BA1964313F005EA9F4 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D371C5BB1964313F005EA9F4 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -241,7 +220,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D371C5BD1964313F005EA9F4 /* NRDModelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
