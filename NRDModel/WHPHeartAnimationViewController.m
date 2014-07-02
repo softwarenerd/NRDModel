@@ -37,6 +37,13 @@
         return nil;
     }
     
+    // Initialize the screen rect.
+    CGRect screenRect = [[UIScreen mainScreen] bounds];
+    
+    // Allocate and initialize the view.
+    _view = [[WHPHeartAnimationView alloc] initWithFrame:screenRect];
+    [_view setDelegate:(id <WHPHeartAnimationViewDelegate>)self];
+
     // Done.
     return self;
 }
@@ -44,9 +51,6 @@
 // Creates the view that the controller manages.
 - (void)loadView
 {
-    // Allocate, initialize, and set the view.
-    _view = [[WHPHeartAnimationView alloc] initWithFrame:CGRectZero];
-    [_view setDelegate:(id <WHPHeartAnimationViewDelegate>)self];
     [self setView:_view];
 }
 
