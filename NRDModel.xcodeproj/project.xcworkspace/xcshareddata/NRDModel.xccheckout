@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>01C6A835-8791-4B92-BA18-9210CABB05B2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NRDModel</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>06821AEC-7921-494E-8D80-5C6DBB126EF6</key>
+		<string>ssh://github.com/softwarenerd/NRDModel.git</string>
+		<key>5AAD325B-7347-4EC7-B943-B610D479741A</key>
+		<string>ssh://github.com/WhoopInc/mobile.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NRDModel.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>06821AEC-7921-494E-8D80-5C6DBB126EF6</key>
+		<string>../..</string>
+		<key>5AAD325B-7347-4EC7-B943-B610D479741A</key>
+		<string>../../../iOSWhoop</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/softwarenerd/NRDModel.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>06821AEC-7921-494E-8D80-5C6DBB126EF6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5AAD325B-7347-4EC7-B943-B610D479741A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSWhoop</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>06821AEC-7921-494E-8D80-5C6DBB126EF6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NRDModel</string>
+		</dict>
+	</array>
+</dict>
+</plist>

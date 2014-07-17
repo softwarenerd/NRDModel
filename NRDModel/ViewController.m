@@ -24,7 +24,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    CGRect screen = [[UIScreen mainScreen] bounds];
+    [[self view] setBackgroundColor:[UIColor whiteColor]];
+
     _imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Background"]];
+    [_imageView setFrame:screen];
     [[self view] addSubview:_imageView];
     
     _heartAnimationViewController = [[WHPHeartAnimationViewController alloc] init];

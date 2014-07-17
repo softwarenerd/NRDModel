@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D33188771964F34A000A184D /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D33188761964F34A000A184D /* UIColor+Extensions.m */; };
 		D371C5A61964313F005EA9F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D371C5A51964313F005EA9F4 /* main.m */; };
 		D371C5A91964313F005EA9F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D371C5A81964313F005EA9F4 /* AppDelegate.m */; };
 		D371C5AC1964313F005EA9F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D371C5AB1964313F005EA9F4 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D33188751964F34A000A184D /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extensions.h"; sourceTree = "<group>"; };
+		D33188761964F34A000A184D /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensions.m"; sourceTree = "<group>"; };
 		D371C5A01964313F005EA9F4 /* NRDModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NRDModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D371C5A41964313F005EA9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D371C5A51964313F005EA9F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 		D371C5A21964313F005EA9F4 /* NRDModel */ = {
 			isa = PBXGroup;
 			children = (
+				D33188751964F34A000A184D /* UIColor+Extensions.h */,
+				D33188761964F34A000A184D /* UIColor+Extensions.m */,
 				D371C5A71964313F005EA9F4 /* AppDelegate.h */,
 				D371C5A81964313F005EA9F4 /* AppDelegate.m */,
 				D371C5AA1964313F005EA9F4 /* ViewController.h */,
@@ -213,6 +218,7 @@
 				D371C5A91964313F005EA9F4 /* AppDelegate.m in Sources */,
 				D3B73BF41964ADDF00737C2F /* WHPHeartAnimationViewController.m in Sources */,
 				D371C5A61964313F005EA9F4 /* main.m in Sources */,
+				D33188771964F34A000A184D /* UIColor+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +332,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = NRDModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -337,7 +345,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = NRDModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +366,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = NRDModelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -372,8 +383,10 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = NRDModelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
